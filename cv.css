@@ -1,0 +1,375 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    width: 100%;
+    height: 240px;
+   
+    border-bottom: 2px solid black;
+}
+.section1{
+    width: 40%;
+    height: 100%;
+  background-color:white;
+    float: left;
+}
+.section1 h1 {
+    font-size: 50px;
+    float: left;
+    line-height: 100px;
+    margin-left: 2%;
+color:#c10909;
+border-bottom:3px solid black ;
+font-family: 'Italianno', cursive;
+
+}
+.section1 img{
+    border-radius: 100%;
+    float: left;
+}
+.section1 p{
+    font-size: 40px;
+    float: left;
+    line-height: 150px;
+    font-family: 'Italianno', cursive;
+    font-weight: bold;
+}
+.section2{
+    width: 60%;
+    height: 100%;
+    float: right;
+    background-color: #9e9e9e;
+    line-height: 80px;
+}
+.section2 h2{
+    font-size: 40px;
+    color: red;
+    margin-left: 2%;
+    border-bottom: 2px solid black;
+    font-family: 'Oswald', sans-serif;
+}
+.section2 p{
+    font-size: 30px;
+    margin-left: 2%;
+    font-family: 'Lobster', cursive
+}
+main{
+    width: 100%;
+    height: 350px;
+    background-color: gray;
+    
+}
+.Experience{
+    width: 50%;
+    height: 100%;
+    background-color:#97aeafad;
+
+    float: left;
+    border: 2px solid black;
+}
+.Experience h2{
+    font-size: 40px;
+    color: red;
+    border-bottom: 2px dotted black;
+    text-align: center;
+}
+.Experience li{
+    font-size: 30px;
+    margin: 2%;
+    margin-left: 5%;
+}
+.Experience li a{
+    color: red;
+    text-decoration: none;
+}
+.Degrees{
+    width: 49%;
+    height: 100%;
+    background-color:#97aeafad;
+float: right;
+    border: 2px solid black;
+ 
+}
+.Degrees h2{
+    font-size: 40px;
+    color: red;
+    border-bottom: 2px double black;
+    text-align: center;
+}
+.Degrees li{
+    font-size: 30px;
+    margin: 2%;
+    margin-left: 5%;
+}
+.Degrees a {
+    color: red;
+    text-decoration: none;
+    margin-left: 3%;
+    font-size:30px ;
+}
+footer{
+    width: 100%;
+    height: 370px;
+    background-color: rgb(190, 190, 175);
+    clear: both;
+}
+footer h2{
+    font-size: 40px;
+    color: red;
+    border-bottom: 2px double black;
+    text-align: center;
+}
+footer a{
+    font-size: 30px;
+    float: left;
+    text-decoration: none;
+    color: black;
+    
+
+}
+footer h3{
+    font-size: 30px;
+    float: left;
+    color: red;
+
+}
+footer div{
+    margin-left: 2%;
+}
+footer img{
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+.phone{
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+.email{
+    margin-bottom:2% ;
+}
+@media only screen and (min-width:1246px) and (max-width:1440px) {
+    .section1 img{
+        width: 35%;
+    }
+    .section1 p{
+        font-size: 35px;
+    }
+    .section2 p{
+        font-size: 27px;
+    }
+}
+@media only screen and (min-width:990px) and (max-width:1245px) {
+    .section1 img{
+        width: 30%;
+    }
+    .section1 h1{
+        font-size: 45px;
+    }
+    .section1 p{
+        font-size: 30px;
+    }
+    .section2 h2{
+        font-size: 36px;
+    }
+    .section2 p{
+        font-size: 24px;
+    }
+    .Experience  h2{
+font-size: 37px;
+    }
+     .Experience li{
+        font-size: 27px;
+    }
+    .Degrees h2{
+        font-size: 37px;
+    }
+    .Degrees li{
+        font-size: 27px;
+    }
+    .Degrees a{
+        font-size: 27px;
+    }
+    footer h2{
+        font-size: 37px;
+    }
+    footer h3{
+        font-size: 27px;
+    }
+    footer a{
+        font-size: 25px;
+    }
+}
+@media only screen and (min-width:664px) and (max-width:989px) {
+    .section1 img{
+        width: 30%;
+    }
+    .section1 h1{
+        font-size: 40px;
+    }
+    .section1 p{
+        font-size: 27px;
+    }
+    .section2 h2{
+        font-size: 32px;
+    }
+    .section2 p{
+        font-size: 18px;
+    }
+    .Experience  h2{
+font-size: 32px;
+    }
+     .Experience li{
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 7%;
+    }
+    .Degrees h2{
+        font-size: 32px;
+    }
+    .Degrees li{
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 10%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .Degrees a{
+        font-size: 21px;
+    
+    }
+    footer h2{
+        font-size: 32px;
+    }
+    footer h3{
+        font-size: 23px;
+    }
+    footer a{
+        font-size: 21px;
+    }
+    .Experience{
+        width: 49.60%;
+    }
+    footer img{
+        width: 25px;
+        height: 25px;
+    }
+}
+@media only screen and (min-width: 416px) and (max-width:663px) {
+    .section1 img{
+        width: 50%;
+    }
+    .section1 h1{
+        font-size: 30px;
+        margin-top: -7%;
+    }
+    .section1 p{
+        font-size: 18px;
+        margin-top: -25%;
+    }
+    .section2 h2{
+        font-size: 25px;
+    }
+    .section2 p{
+        font-size: 11px;
+        font-weight: bold;
+    }
+    .Experience  h2{
+font-size: 25px;
+    }
+     .Experience li{
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 10%;
+    }
+    .Degrees h2{
+        font-size: 25px;
+    }
+    .Degrees li{
+        font-size: 15px;
+        font-weight: bold;
+        margin-left: 10%;
+        margin-top: 14%;
+        margin-bottom: 10%;
+    }
+    .Degrees a{
+        font-size: 17px;
+    
+    }
+    footer h2{
+        font-size: 25px;
+    }
+    footer h3{
+        font-size: 17px;
+    }
+    footer a{
+        font-size: 15px;
+    }
+    .Experience{
+        width: 48.80%;
+    }
+    footer img{
+        width: 23px;
+        height: 23px;
+    }
+}
+@media only screen and (min-width:290px) and (max-width:415px) {
+    .section1 img{
+        width: 75%;
+    }
+    .section1 h1{
+        font-size: 22px;
+        margin-top: -15%;
+    }
+    .section1 p{
+        font-size: 12px;
+        margin-top: -35%;
+    }
+    .section2 h2{
+        font-size: 17px;
+        margin-top: -12%;
+    }
+    .section2 p{
+        font-size: 10px;
+        margin-top: -14%;
+    }
+    .Experience  h2{
+font-size: 20px;
+    }
+     .Experience li{
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: 15%;
+    }
+    .Degrees h2{
+        font-size: 20px;
+    }
+    .Degrees li{
+        font-size: 13px;
+        font-weight: bold;
+        margin-left: 15%;
+        margin-top: 15%;
+        margin-bottom: 10%;
+    }
+    .Degrees a{
+        font-size: 13px;
+    
+    }
+    footer h2{
+        font-size: 20px;
+    }
+    footer h3{
+        font-size: 13px;
+    }
+    footer a{
+        font-size: 13px;
+    }
+    .Experience{
+        width: 48.20%;
+    }
+    footer img{
+        width: 15px;
+        height: 15px;
+    }
+}

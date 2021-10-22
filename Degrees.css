@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 1000px;
+}
+header{
+    width:100%;
+    height: 20%;
+    background-image: linear-gradient(to right,silver,lightblue);
+    text-align: center;
+    animation-name: color;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+header h1{
+    font-size: 100px;
+    color: red;
+    line-height: 200px;
+    font-family: 'Italianno', cursive;
+}
+main{
+    background-color:whitesmoke;
+width: 100%;
+height: 80%;
+}
+.html{
+    width:40%;
+    height: 60%;
+    float: left;
+    margin:0.5% ;
+}
+.web{
+    width:40%;
+    height: 60%;
+    float: right;
+    margin: 0.5%;
+}
+@keyframes color{
+    25%{
+        background-image: linear-gradient(to right,lightblue,rgb(48, 160, 197));
+    }
+    50%{
+        background-image: linear-gradient(to right,rgb(48, 160, 197),rgb(14, 35, 128));
+    }
+    75%{
+        background-image: linear-gradient(to right,rgb(14, 35, 128),rgb(209, 115, 120));
+    }
+    100%{
+        background-image: linear-gradient(to right,rgb(209, 115, 120),silver);
+    }
+}
+@media only screen and (min-width:1000px) and (max-width:1280px) {
+    header h1{
+        font-size: 90px;
+    }
+    .html,.web{
+width: 45%;
+height: 50%;
+    }
+}
+@media only screen and (min-width:800px) and (max-width:999px) {
+    header h1{
+        font-size: 85px;
+    }
+    .html,.web{
+width: 47%;
+height: 40%;
+    }
+}
+@media only screen and (min-width:600px) and (max-width:799px) {
+    
+    header h1{
+        font-size: 80px;
+    }.html,.web{
+width: 100%;
+float: none;
+height: 45%;
+    }
+}
+@media only screen and (min-width:400px) and (max-width:599px) {
+    header h1{
+        font-size: 75px;
+    }
+    .html,.web{
+width: 100%;
+height: 40%;
+float: none;
+    }
+}
+
+@media only screen and (min-width:200px) and (max-width:399px) {
+    header h1{
+        font-size: 70px;
+    }
+    .html,.web{
+width: 100%;
+float: none;
+height: 40%;
+    }
+}
